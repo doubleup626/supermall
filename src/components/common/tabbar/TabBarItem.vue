@@ -48,6 +48,6 @@ export default {
   /* vertical-align是用来解决图片的三像素问题：为什么会多三个像素，是因为此元素默认放在父亲元素得基线上，通过vertical-align实现图片与文字对其，注意它只对行内元素跟行内块元素有效 */
 }
 .isActive {
-  color: #ff5777;
+  color: var(--color-tint);
 }
 </style>
