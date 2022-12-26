@@ -1,5 +1,5 @@
 <template>
-  <div class="block">
+  <div class="swiper">
     <el-carousel  height="200px">
       <el-carousel-item v-for="item in banners" :key="item">
         <img :src="item.image" @click="imgClick(item.image)"/>

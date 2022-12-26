@@ -28,11 +28,13 @@ export default {
     flex-flow:raw nowrap;
     justify-content: space-around;
     align-items:center;
-    
+    /* box-shadow: 1px 1px 3px  rgba(red, green, blue, alpha); */
+    background-color: rgb(241, 241, 241);
 }
 .view img{
     height: 80px;
     /* width:40px; */
+    border-radius: 50%;
 }
 .view div{
     text-align: center;
